@@ -1,0 +1,14 @@
+.footer {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .main-footer {
+    display: flex;
+
+     .item + .item {
+        margin-left: 30px;
+      }
+  }
+  

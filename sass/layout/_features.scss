@@ -1,0 +1,48 @@
+
+ .features-list {
+    display: flex;
+
+    .item {
+        width: 270px;}
+
+    .item + .item {
+            margin-left: 30px;
+          }  
+  }
+  
+  .icon-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: $secondary-bg-color;
+    border-radius: 4px;
+  }
+  
+  /* .icon-group::before {
+    background-image: url(../img/Group.svg);
+  }
+  .icon-clok1::before {
+    background-image: url(../img/clock1.svg);
+  }
+  .icon-diagram1::before {
+    background-image: url(../img/diagram1.svg);
+  }
+  .icon-astronaut1::before {
+    background-image: url(../img/astronaut1.svg);
+  } */
+  .features-list .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $title-text-color;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .features-list p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
