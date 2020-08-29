@@ -657,6 +657,7 @@ main {
 .radio-label {
   border-radius: 4px;
   border: none;
+  display: block;
   padding: 6px 22px;
   color: #212121;
   background-color: #f5f4fa;
