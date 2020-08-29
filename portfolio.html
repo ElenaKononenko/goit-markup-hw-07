@@ -8,8 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
     <!--Верхняя линия-->
@@ -53,23 +52,28 @@
       <!--Навигация по проэктам-->
       <section class="portfolio">
         <div class="container">
-          <h1 class="is-hidden">Портфолио</h1>
+          <h1 class="visually-hidden">Портфолио</h1>
 
           <ul class="list box-button">
             <li class="item">
-              <button type="button" class="filter">Все</button>
+              <input type="radio" id="radio1" name="filter" class="radio-input visually-hidden" value="Все"/>
+              <label for="radio1" class="radio-label">Все</label>
             </li>
             <li class="item">
-              <button type="button" class="filter">Веб-сайты</button>
+                <input type="radio" id="radio2" name="filter" class="radio-input visually-hidden" value="Веб-сайты" />
+                <label for="radio2" class="radio-label">Веб-сайты</label>
             </li>
             <li class="item">
-              <button type="button" class="filter">Приложения</button>
+                <input type="radio" id="radio3" name="filter" class="radio-input visually-hidden" value="Приложения" />
+                <label for="radio3" class="radio-label">Приложения</label>
             </li>
             <li class="item">
-              <button type="button" class="filter">Дизайн</button>
+                <input type="radio" id="radio4" name="filter" class="radio-input visually-hidden"value="Дизайн"/>
+                <label for="radio4" class="radio-label">Дизайн</label>
             </li>
             <li class="item">
-              <button type="button" class="filter">Маркетинг</button>
+                <input type="radio" id="radio5" name="filter" class="radio-input visually-hidden" value="Маркетинг"/>
+                <label for="radio5" class="radio-label">Маркетинг</label>
             </li>
           </ul>
           <!-- сетка -->
@@ -101,14 +105,18 @@
               <li class="grid-item">
                 <div>
                   <a class="projects-link" href="#">
-                    <div>
+                    <div class="card-hover">
                       <img
                         class="picture projects-img"
                         src="./images-portfolio/desing.jpg"
                         width="370"
                         alt="Дизайн постера"
                       />
-                      <!-- <p></p> -->
+                      <p class="hover-text">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера конкурентов.
+                          </p>
                     </div>
                     <div class="text">
                       <h2 class="projects-title">
@@ -122,14 +130,18 @@
               <li class="grid-item">
                 <div>
                   <a class="projects-link" href="#">
-                    <div>
+                    <div class="card-hover">
                       <img
                         class="picture projects-img"
                         src="./images-portfolio/seafood.jpg"
                         width="370"
                         alt="приложение ресторана Seafood"
                       />
-                      <!-- <p></p> -->
+                      <p class="hover-text">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера конкурентов.
+                          </p>
                     </div>
                     <div class="text">
                       <h2 class="projects-title">Ресторан Seafood</h2>
@@ -141,14 +153,18 @@
               <li class="grid-item">
                 <div>
                   <a class="projects-link" href="#">
-                    <div>
+                    <div class="card-hover">
                       <img
                         class="picture projects-img"
                         src="./images-portfolio/prime.jpg"
                         width="370"
                         alt="Проект Prime"
                       />
-                      <!-- <p></p> -->
+                      <p class="hover-text">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера конкурентов.
+                          </p>
                     </div>
                     <div class="text">
                       <h2 class="projects-title">Проект Prime</h2>
@@ -160,14 +176,18 @@
               <li class="grid-item">
                 <div>
                   <a class="projects-link" href="#">
-                    <div>
+                    <div class="card-hover">
                       <img
                         class="picture projects-img"
                         src="./images-portfolio/boxes.jpg"
                         width="370"
                         alt="приложение Boxes"
                       />
-                      <!-- <p></p> -->
+                      <p class="hover-text">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера конкурентов.
+                          </p>
                     </div>
                     <div class="text">
                       <h2 class="projects-title">Проект Boxes</h2>
@@ -179,14 +199,18 @@
               <li class="grid-item">
                 <div>
                   <a class="projects-link" href="#">
-                    <div>
+                    <div class="card-hover">
                       <img
                         class="picture projects-img"
                         src="./images-portfolio/Inspiration-has-no-Borders.jpg"
                         width="370"
                         alt="Веб-сайт Inspiration has no Borders "
                       />
-                      <!-- <p></p> -->
+                      <p class="hover-text">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера конкурентов.
+                          </p>
                     </div>
                     <div class="text">
                       <h2 class="projects-title">Inspiration has no Borders</h2>
@@ -198,14 +222,18 @@
               <li class="grid-item">
                 <div>
                   <a class="projects-link" href="#">
-                    <div>
+                    <div class="card-hover">
                       <img
                         class="picture projects-img"
                         src="./images-portfolio/LimitedEdition.jpg"
                         width="370"
                         alt="дизайн издания Limited Edition"
                       />
-                      <!-- <p></p> -->
+                      <p class="hover-text">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера конкурентов.
+                          </p>
                     </div>
                     <div class="text">
                       <h2 class="projects-title">Издание Limited Edition</h2>
@@ -217,14 +245,18 @@
               <li class="grid-item">
                 <div>
                   <a class="projects-link" href="#">
-                    <div>
+                    <div class="card-hover">
                       <img
                         class="picture projects-img"
                         src="./images-portfolio/lab.jpg"
                         width="370"
                         alt="Проект LAB"
                       />
-                      <!-- <p></p> -->
+                      <p class="hover-text">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера конкурентов.
+                          </p>
                     </div>
                     <div class="text">
                       <h2 class="projects-title">Проект LAB</h2>
@@ -236,14 +268,18 @@
               <li class="grid-item">
                 <div>
                   <a class="projects-link" href="#">
-                    <div>
+                    <div class="card-hover">
                       <img
                         class="picture projects-img"
                         src="./images-portfolio/GrowingBusiness.jpg"
                         width="370"
                         alt="приложение Growing Business "
                       />
-                      <!-- <p></p> -->
+                      <p class="hover-text">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера конкурентов.
+                          </p>
                     </div>
                     <div class="text">
                       <h2 class="projects-title">Growing Business</h2>

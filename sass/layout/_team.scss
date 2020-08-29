@@ -1,11 +1,8 @@
-.section.team {
+  .section.team {
     background-color: $secondary-bg-color;
 
-  }
-  .team a {
-    text-decoration: none;
-    color: inherit;
-  }
+   }
+
   .team .title {
     color: $title-text-color;
   
@@ -46,4 +43,48 @@
                 margin-right: 30px;
               }
   }
+  .team .list {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .team .list-link {
+    display: flex;
+    justify-content: space-between;
+
+        .list-item:not(:nth-child(4n + 4)) {
+            margin-right: 10px;
+        }
+
+  }
+  
+  .team .link {
+    fill: $svg-color;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+        fill: $primary-white-color;
+        background-color: $accent-color;
+        }
+  }
+  
+  %text-decoration {
+    text-decoration: none;
+    color: inherit;
+     }
+  
+    .team .link {
+    @extend %text-decoration;
+     }
+  
   
